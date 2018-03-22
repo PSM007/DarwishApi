@@ -1,0 +1,27 @@
+module.js:472
+    throw err;
+    ^
+
+Error: Cannot find module '@cloudmpower/console_upgrader_async'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at /home/jollywell/projects/login_async/node_modules/@cloudmpower/interactor_async/index.js:19:26
+    at Object.<anonymous> (/home/jollywell/projects/login_async/node_modules/@cloudmpower/interactor_async/index.js:121:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at /home/jollywell/projects/login_async/nodedb/config/getGlobalMethod.js:3:22
+    at Object.<anonymous> (/home/jollywell/projects/login_async/nodedb/config/getGlobalMethod.js:65:3)
+    at Module._compile (module.js:571:32)
+Mon, 03 Jul 2017 15:44:58 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at nodedb/router/client/middleware.js:21:13
+Mon, 03 Jul 2017 15:44:58 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at nodedb/router/client/middleware.js:48:13
+{"date":"2017-07-03T15:44:58.816Z","message":"listening to 56446","tag":"AppStarted"}
+Mon, 03 Jul 2017 15:47:04 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at nodedb/router/client/middleware.js:21:13
+Mon, 03 Jul 2017 15:47:04 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at nodedb/router/client/middleware.js:48:13
+{"date":"2017-07-03T15:47:04.157Z","message":"listening to 56446","tag":"AppStarted"}

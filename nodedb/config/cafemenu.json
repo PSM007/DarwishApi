@@ -1,0 +1,31 @@
+{
+  "domainName"              : "cafemenu.in",
+  "appPort"                 : 56446,
+  "databaseSetting"         : {
+    "user"                  : "cafemenu",
+    "pass"                  : "Cafe!Menu",
+    "host"                  : "139.59.74.169",
+    "port"                  : 38041,
+    "database"              : "login",
+    "db"                    : {
+      "native_parser"         : true
+    },
+    "server"                : {
+      "poolSize"              : 5
+    }
+  },
+  "serviceTo"               : "login",
+  "setLang"                 : "EN",
+  "logToStdOut"             : true,
+  "logServerConfig"    : {
+    "hostname"                : "139.59.60.218",
+    "port"                    : "7173",
+    "path"                    : "/logserver/log/add",
+    "method"                  : "POST",
+    "headers"                 : {
+      "Content-Type"            : "application/json",
+      "x-service-from"          : "localhost",
+      "x-auth-server"           : true
+    }
+  }
+}

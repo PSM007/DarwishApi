@@ -1,0 +1,31 @@
+{
+  "domainName"              : "pebbles.net.in",
+  "appPort"                 : 56446,
+  "databaseSetting"         : {
+    "user"                  : "pebbles",
+    "pass"                  : "Pebb!es!",
+    "host"                  : "139.59.9.190",
+    "port"                  : 38032,
+    "database"              : "darwish",
+    "db"                    : {
+      "native_parser"         : true
+    },
+    "server"                : {
+      "poolSize"              : 5
+    }
+  },
+  "serviceTo"               : "darwish",
+  "setLang"                 : "EN",
+  "logToStdOut"             : false,
+  "logServerConfig"    : {
+    "hostname"                : "139.59.60.218",
+    "port"                    : "7173",
+    "path"                    : "/logserver/log/add",
+    "method"                  : "POST",
+    "headers"                 : {
+      "Content-Type"            : "application/json",
+      "x-service-from"          : "localhost",
+      "x-auth-server"           : true
+    }
+  }
+}
